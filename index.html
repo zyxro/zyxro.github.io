@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <script src="js/tracker.js" defer></script>
+    <script src="js/text-analyzer.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm [Your Name], a passionate individual with a love for technology and creativity. I enjoy exploring new ideas and sharing my knowledge with others.</p>
+        <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-pic">
+        <h3>Pictures from My Birthplace</h3>
+        <div class="gallery">
+            <img src="assets/images/birthplace1.jpg" alt="Birthplace Image 1">
+            <img src="assets/images/birthplace2.jpg" alt="Birthplace Image 2">
+            <img src="assets/images/birthplace3.jpg" alt="Birthplace Image 3">
+        </div>
+    </section>
+    <section id="education">
+        <h2>Education Background</h2>
+        <p>I have studied at various institutions, including [School Name 1] and [School Name 2]. I graduated with [Degree] and have achieved [Achievements].</p>
+    </section>
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>HTML - Advanced</li>
+            <li>CSS - Intermediate</li>
+            <li>JavaScript - Intermediate</li>
+            <li>Python - Beginner</li>
+            <li>React - Intermediate</li>
+        </ul>
+    </section>
+    <footer>
+        <h2>Download My CV</h2>
+        <a href="assets/docs/cv.pdf" target="_blank">View CV</a>
+    </footer>
+    <script>
+        document.addEventListener('click', function(event) {
+            console.log(`${new Date().toISOString()}, click, ${event.target.tagName}`);
+        });
+        window.addEventListener('load', function() {
+            console.log(`${new Date().toISOString()}, view, ${document.title}`);
+        });
+    </script>
+</body>
+</html>
