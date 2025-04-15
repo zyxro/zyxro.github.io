@@ -307,7 +307,6 @@ body.light-mode .year-label {
     text-shadow: var(--neon-orange-glow);
     transform: translateX(-50%) scale(1.1);
 }
-/* Timeline Modal */
 .timeline-modal {
     display: none;
     position: fixed;
@@ -360,7 +359,6 @@ body.light-mode .modal-content {
     color: var(--neon-orange);
     text-shadow: var(--neon-orange-glow);
 }
-/* Responsive Design */
 @media (max-width: 768px) {
     .year-label {
         font-size: 0.8rem;
@@ -497,7 +495,6 @@ body.light-mode .skill-tag {
     50% { transform: scale(1.1); }
     100% { transform: scale(1); }
 }
-/* Remove background image approach for skill icons */
 .skill-architecture,
 .skill-webdesign,
 .skill-competitive,
